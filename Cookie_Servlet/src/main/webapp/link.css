@@ -1,0 +1,43 @@
+ /* General body styling */
+    body {
+        font-family: Arial, sans-serif; /* Clean font */
+        background-color: #f4f7fa; /* Light background */
+        margin: 0;
+        padding: 0;
+        color: #333; /* Dark text for readability */
+    }
+
+    /* Styling the navigation links */
+    .navbar {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .navbar a {
+        text-decoration: none; /* Remove underline */
+        color: #007BFF; /* Blue color for links */
+        font-size: 1.1em;
+        margin: 0 15px; /* Horizontal spacing */
+        padding: 10px 20px; /* Padding for better click area */
+        border-radius: 5px; /* Rounded corners */
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .navbar a:hover {
+        background-color: #007BFF; /* Blue background on hover */
+        color: white; /* White text on hover */
+    }
+
+    /* Styling the horizontal line */
+    hr {
+        border: 0;
+        height: 1px;
+        background-color: #ddd; /* Light gray line */
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* Optional: Add a container for better structure */
+    .container {
+        padding: 20px;
+    }

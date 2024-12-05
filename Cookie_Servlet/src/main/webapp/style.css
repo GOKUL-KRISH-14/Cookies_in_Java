@@ -1,0 +1,63 @@
+ /* General body and layout styles */
+    body 
+    {
+        font-family: Arial, sans-serif; /* Sets a modern sans-serif font */
+        background-color: #f4f7fa; /* Light background color */
+        margin: 0;
+        padding: 0;
+        color: #333; /* Dark gray text for better readability */
+    }
+
+    h1 {
+        text-align: center;
+        color: #4CAF50; /* Green color for the heading */
+        margin-top: 50px;
+        font-size: 2.5em; /* Larger heading text */
+    }
+
+    /* Styling for links in the navigation */
+    a {
+        text-decoration: none;
+        color: #007BFF; /* Blue color for links */
+        font-size: 1.1em;
+        margin: 0 15px;
+    }
+
+    a:hover 
+    {
+        color: #0056b3; /* Darker blue on hover for better UX */
+    }
+
+    a:active 
+    {
+        color: #003366; /* Even darker blue when the link is clicked */
+    }
+
+    /* Styling for the body container */
+    .container
+     {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh; /* Full viewport height */
+    }
+
+    .navigation {
+        margin-top: 30px;
+    }
+
+    /* Adding some spacing and centralizing the navigation */
+    .navigation a 
+    {
+        padding: 10px 20px;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Adjusting the container's background color and adding a box shadow */
+    .navigation a:hover
+     {
+        background-color: #d1e7ff; /* Light blue background on hover */
+    }
